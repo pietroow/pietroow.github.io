@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Victor" last-name="Reis"  github="pietroow" 
+		 phone="043-99642-8023" linkedin="pietrovictor">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="40">
+                <sidebar-category name="Educação">
+                    <p> - Ensino médio: Colégio Sesi-PR (conclusão em 2013) </p>
+					<p> - Ensino superior: Universidade Norte do Paraná (UNOPAR)</p>
+					<p>Cursando Análise e  Desenvolvimento de Sistemas (conclusão em junho/2019)</p>
+                                        
+                </sidebar-category>
+                <sidebar-category name="Conquistas">
+                    <p>Carta de referência e Certificado de Honra ao Mérito do Exército Brasileiro</p>
+                </sidebar-category>
+                <sidebar-category name="Cursos">
+                    <p>- Cursos concluidos pela plataforma DevMedia:</p>
+                    <p>Java OO, Php OO</p>
+                    <p>- Cursos concluídos pela plataforma CursoEmVideo: </p>
+                    <p>Algoritmos, HTML5 & CSS3, Java, MySQL, Word</p>
+                </sidebar-category>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="Experiência Profissional">
+                    <category-item title="Menor Aprendiz (RH)" subtitle="Moval Móveis Arapongas (2012 a 2013)">
+                        <li>Organização de documentos</li>
+                        <li>Assistência e manutenção de computadores</li>
+                    </category-item>
+                    <category-item title="Soldado" subtitle="Exército Brasileiro (2014 – 2017)">
+                        <li>Auxiliar no pelotão de comunicações</li>
+                        <li>Força de Pacificação Complexo da Maré (2014 – 2015)</li>
+                        <li>Olimpíadas Rio 2016</li>
+                        <li>Conclusão CFC - Curso de Formação de Cabos 16ºde/51</li>
+                    </category-item>
+                    <category-item title="Estagiário" subtitle="RGM DO PARANÁ – Gersaúde Informática(2017 - Atualmente)">
+                        <li>Atendimento e suporte ao cliente</li>
+                        <li>Gerenciamento e manutenção do sistema (Dataflex)</li>
+                    </category-item>
+                </category>
+                <category name="Projetos">
+                    <category-item title="Desenvolvedor" subtitle="UNOPAR (abr/2017 - dez/2017)">
+                        <li>Objetivo: Implementação de um sistema para a clínica veterinária da universidade</li>
+						<li>Aplicação de metodologia ágil (scrum)</li>
+						<li>Tecnologias usadas: PHP, Mysql</li>
+                    </category-item>
+                    <category-item title="Product Owner" subtitle="UNOPAR (jan/2018 - atualmente)">
+                        <li>Objetivo: Implementação de um sistema para a clínica de fisioterapia da universidade</li>
+						<li>Aplicação de metodologia ágil (scrum)</li>
+						<li>Para o desenvolvimento do sistema está sendo apresentado frameworks de front/backend
+						e implementação da arquitetura MVC para melhor aprendizado</li>
+					</category-item>
+                </category>
+                <category name="Habilidades">
+				<category-item title="Língua Inglesa">
+                        <li><strong>Escrita</strong> Avançada</li>
+                        <li><strong>Leitura</strong> Avançada</li>
+                        <li><strong>Conversação</strong> Média/Alta</li>
+                        </category-item>
+                    <category-item title="Tecnologias">
+                        <li><strong>Experiência com</strong> Web (HTML5, CSS3, PHP, Java)</li>
+                        <li><strong>Programação</strong> Java </li>
+                        <li><strong>Database</strong> MySQL</li>
+                    </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body></html>
